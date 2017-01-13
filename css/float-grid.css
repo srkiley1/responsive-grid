@@ -59,15 +59,22 @@
   }
 
   /* 4 columns */
+  /* Use two width declarations to
+  ensure support for old browsers. */
   .col-4 {
+    width: 33.3333%;
+    width: calc(100%/3);
   }
 
   /* 6 columns */
   .col-6 {
+    width: 50%;
 
   }
 
   /* 12 columns */
   .col-12 {
+    width: 100%;
+
   }
 }
